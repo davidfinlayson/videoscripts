@@ -31,8 +31,8 @@ fi
 
 SRC=$1
 DEST=$2
-SIGMA=${3:-60}
-HUE=${4:-130}
+SIGMA=${3:60}
+HUE=${4:130}
 
 for f in $( ls -1 $SRC/* )
 do
